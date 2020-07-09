@@ -1,5 +1,7 @@
-const StringUtil = require("./src/StringUtil")
+'use strict'
+
+const StringUtil = require("./src/StringUtil");
 
 module.exports = {
-    "StringUtil": StringUtil
+    StringUtil
 }

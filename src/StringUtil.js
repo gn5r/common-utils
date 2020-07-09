@@ -79,4 +79,4 @@ StringUtil.toShiftJIS = (utf8String = String) => {
     return Array.from(new Uint8Array(sjisArray)).toString();
 }
 
-module.exports.StringUtil = StringUtil;
+module.exports = StringUtil;
