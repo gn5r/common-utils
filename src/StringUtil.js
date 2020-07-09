@@ -1,4 +1,3 @@
-// import Encoding from 'encoding-japanese'
 const encoding = require('encoding-japanese');
 
 let StringUtil = {};

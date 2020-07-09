@@ -1,9 +1,20 @@
-const StringUtil = require('./index').StringUtil;
+const Utils = require('./index');
 
-const str = 'abcdefg';
+const StringUtil = Utils.StringUtil;
 
-const regex = StringUtil.substring(str, 'bcdp');
+const txt = 'abcdefg';
+
+const regex = StringUtil.substring(txt, 'bcdp');
 
 const empty = StringUtil.isEmpty(regex)
 
-console.log(str, regex, empty, StringUtil.toString(regex, "空です"));
+console.log(txt, regex, empty, StringUtil.toString(regex, "空です"));
+
+const ArrayUtil = Utils.ArrayUtil;
+
+const test = ["あ", "い", "う", "え", "お"];
+
+const str = ArrayUtil.toString(test);
+const strComma = ArrayUtil.toStringWithComma(test)
+
+console.log("toString:", str, "withComma:", strComma);

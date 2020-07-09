@@ -1,7 +1,8 @@
-'use strict'
+const StringUtil = require("./src/StringUtil")
+const ArrayUtil = require("./src/ArrayUtil")
 
-const StringUtil = require("./src/StringUtil");
-
+// Utilオブジェクトをそのままexport
 module.exports = {
-    StringUtil
+    StringUtil,
+    ArrayUtil
 }
