@@ -5,7 +5,8 @@
   "private": false,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node ./tests/test.js"
   },
   "author": "gn5r",
   "license": "MIT",
@@ -14,6 +15,7 @@
     "url": "https://github.com/gn5r/common-utils.git"
   },
   "dependencies": {
-    "encoding-japanese": "^1.0.30"
+    "encoding-japanese": "^1.0.30",
+    "moment": "^2.27.0"
   }
 }

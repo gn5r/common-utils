@@ -1,8 +1,10 @@
-const StringUtil = require("./src/StringUtil")
-const ArrayUtil = require("./src/ArrayUtil")
+const StringUtil = require("./utils/StringUtil")
+const ArrayUtil = require("./utils/ArrayUtil")
+const DateUtil = require("./utils/DateUtil")
 
 // Utilオブジェクトをそのままexport
 module.exports = {
     StringUtil,
-    ArrayUtil
+    ArrayUtil,
+    DateUtil
 }
