@@ -1,6 +1,6 @@
 {
   "name": "common-utils",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "Utilをまとめたパッケージ",
   "private": false,
   "main": "index.js",
@@ -8,21 +8,20 @@
     "utils"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "node ./tests/test.js"
+    "test": "node ./tests/test.js"
   },
   "author": "gn5r",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gn5r/common-utils.git"
+    "url": "git://github.com/gn5r/common-utils.git"
   },
   "dependencies": {
     "encoding-japanese": "^1.0.30",
     "moment": "^2.27.0"
   },
   "publishConfig": {
-    "registry": "http://localhost:4873/",
+    "registry": "https://npm.pkg.github.com/gn5r",
     "access": "public"
   }
 }
