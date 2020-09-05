@@ -1,9 +1,12 @@
 {
-  "name": "@gn5r/common-utils",
-  "version": "0.0.1",
+  "name": "common-utils",
+  "version": "0.1.0",
   "description": "Utilをまとめたパッケージ",
   "private": false,
   "main": "index.js",
+  "files": [
+    "utils"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "run": "node ./tests/test.js"
@@ -17,5 +20,9 @@
   "dependencies": {
     "encoding-japanese": "^1.0.30",
     "moment": "^2.27.0"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:4873/",
+    "access": "public"
   }
 }

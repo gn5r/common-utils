@@ -23,3 +23,11 @@ console.log("toArray", array);
 // const strComma = ArrayUtil.toStringWithComma(test)
 
 // console.log("toString:", str, "withComma:", strComma);
+
+const DateUtils = Utils.DateUtil;
+const now = DateUtils.now();
+console.log(`今日: ${now}`)
+
+const Random = Utils.Random;
+const num = Random.random(1,10);
+console.log(`乱数: ${num}`)
