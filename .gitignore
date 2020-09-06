@@ -104,4 +104,4 @@ dist
 .tern-port
 
 # testディレクトリを除外する
-tests
+tests/
