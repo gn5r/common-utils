@@ -15,27 +15,23 @@ StringUtil.substring = (source = String, regex = String) => {
 }
 
 /**
- * 指定された文字列がNullまたは空であるかチェック
+ * 指定された文字列がnull,undefined,空であるかチェック
  * @param {String} source 検証文字列
  * 
- * @returns {Boolean} 空文字であればtrueを、それ以外の場合はfalseを返却
+ * @returns {Boolean} 指定した文字列がnull,undefined,空文字であればtrueを、それ以外の場合はfalseを返却
  */
 StringUtil.isEmpty = (source = String) => {
-    if (source === null || source.length === 0) {
-        return true;
-    } else {
-        return false;
-    }
+    return !source ? true : false;
 }
 
 /**
- * 指定された文字列がNullまたはundefinedであるかチェック
+ * 指定された文字列がNullであるかチェック
  * @param {String} source 検証文字列
  * 
- * @returns {Boolean} Nullまたはundefinedであればtrueを、それ以外の場合はfalseを返却
+ * @returns {Boolean} Nullであればtrueを、それ以外の場合はfalseを返却
  */
 StringUtil.isNull = (source = String) => {
-    return !source ? true : false;
+    return source === null ? true : false;
 }
 
 /**

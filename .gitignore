@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# testディレクトリを除外する
+tests

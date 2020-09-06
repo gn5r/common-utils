@@ -1,5 +1,5 @@
 {
-  "name": "common-utils",
+  "name": "@gn5r/common-utils",
   "version": "0.1.0",
   "description": "Utilをまとめたパッケージ",
   "private": false,
@@ -21,7 +21,7 @@
     "moment": "^2.27.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/gn5r",
+    "registry": "https://npm.pkg.github.com/",
     "access": "public"
   }
 }
